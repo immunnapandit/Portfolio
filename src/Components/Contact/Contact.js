@@ -1,5 +1,5 @@
 import React from "react";
-// import "./Contact.css";
+import "./Contact.css";
 import { VscGithub } from "react-icons/vsc";
 import { CgMail } from "react-icons/cg";
 import { BsInstagram, BsFillTelephoneFill } from "react-icons/bs";
@@ -21,27 +21,27 @@ export const Contact = () => {
             data-aos="fade-right"
           >
             <a
-              href="https://www.linkedin.com/in/mantu-kumar-yadav-186057171/"
+              href="https://www.linkedin.com/immunnapandit/"
               target="_blank"
               rel="noreferrer"
             >
               <FaLinkedin className="linkedin" />
             </a>
             <a
-              href="github.com/mantukumaryadav"
+              href="github.com/immunnapandit"
               target="_blank"
               rel="noreferrer"
             >
               <VscGithub className="github" />
             </a>
             <a
-              href="mailto:mantukr446@gmail.com"
+              href="mailto:munnapandit2002@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
               <CgMail className="email" />
             </a>
-            <a href="tel:+91 9770268614" target="_blank" rel="noreferrer">
+            <a href="tel:+916209149284" target="_blank" rel="noreferrer">
               <BsFillTelephoneFill className="phone" />
             </a>
           </div>
@@ -51,7 +51,7 @@ export const Contact = () => {
                 <CgMail className="email" />
               </span>
               <span>
-                <p>mantukr446@gmail.com</p>
+                <p>munnapandit2002@gmail.com</p>
               </span>
             </div>
             <div className="iconsCont">
@@ -59,7 +59,7 @@ export const Contact = () => {
                 <BsFillTelephoneFill className="phone" />
               </span>
               <span>
-                <p>+91 9770268614</p>
+                <p>+916209149284</p>
               </span>
             </div>
           </div>
