@@ -1,5 +1,5 @@
 import React from "react";
-// import "./Footer.css";
+import "./Footer.css";
 import { ThemeContext } from "../../Context/theme";
 
 export const Footer = () => {

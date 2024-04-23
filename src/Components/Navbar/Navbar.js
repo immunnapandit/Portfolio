@@ -1,6 +1,6 @@
 import React from "react";
 import { ThemeContext } from "../../Context/theme";
-// import "./Navbar.css";
+import "./Navbar.css";
 import Brightness2Icon from "@material-ui/icons/Brightness2";
 import WbSunnyRoundedIcon from "@material-ui/icons/WbSunnyRounded";
 import MenuIcon from "@material-ui/icons/Menu";

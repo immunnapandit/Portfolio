@@ -4,7 +4,7 @@ import { Navbar } from "../Navbar/Navbar";
 import { ThemeContext } from "../../Context/theme";
 // import Image from "./../../assets/mantu.png";
 
-// import "./Header.css";
+import "./Header.css";
 export const Header = () => {
   const [{ themename }] = React.useContext(ThemeContext);
 

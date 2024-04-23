@@ -1,5 +1,5 @@
 import React from "react";
-// import "./Projects.css";
+import "./Projects.css";
 import { FaReact, FaHardHat } from "react-icons/fa";
 import {
   SiBlockchaindotcom,
