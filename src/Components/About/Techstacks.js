@@ -37,19 +37,19 @@ export const Techstacks = () => {
             <FaReact />
             <h5>React</h5>
           </div>
-          <div>
+          {/* <div>
             <FaNodeJs />
             <h5>Nodejs</h5>
-          </div>
-          <div>
+          </div> */}
+          {/* <div>
             <DiMongodb />
             <h5>MongoDb</h5>
-          </div>
+          </div> */}
 
-          <div>
+          {/* <div>
             <SiExpress />
             <h5>Express</h5>
-          </div>
+          </div> */}
 
           <div>
             <SiRedux />

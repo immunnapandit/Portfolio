@@ -5,7 +5,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import PhoneIcon from "@material-ui/icons/Phone";
-// import TwitterIcon from "@material-ui/icons/Twitter";
+import TwitterIcon from "@material-ui/icons/Twitter";
 // import DescriptionIcon from "@material-ui/icons/Description";
 // import PublicIcon from "@material-ui/icons/Public";
 import { Introduction } from "./Introduction";
@@ -31,7 +31,7 @@ export const About = () => {
         </p>
         <div className="about__contact center">
           <a
-            href="github.com/mantukumaryadav"
+            href="github.com/immunnapandit"
             aria-label="github"
             target="_blank"
             rel="noreferrer"
@@ -40,7 +40,7 @@ export const About = () => {
             <GitHubIcon />
           </a>
           <a
-            href="mailto:mantukr446@gmail.com"
+            href="mailto:munnapandit2002@gmail.com"
             target="_blank"
             rel="noreferrer"
             aria-label="mail"
@@ -49,7 +49,7 @@ export const About = () => {
             <EmailIcon />
           </a>
           <a
-            href="tel:+919770268614"
+            href="tel:+916209149284"
             target="_blank"
             rel="noreferrer"
             aria-label="phone"
@@ -58,7 +58,7 @@ export const About = () => {
             <PhoneIcon />
           </a>
           <a
-            href="https://www.linkedin.com/in/mantu-kumar-yadav-186057171/"
+            href="https://www.linkedin.com/in/immunnapandit/"
             aria-label="linkedin"
             className="link link--icon"
             target="_blank"
@@ -66,15 +66,15 @@ export const About = () => {
           >
             <LinkedInIcon />
           </a>
-          {/* <a
-            href="https://twitter.com/"
+          <a
+            href="https://twitter.com/immunnapandit/"
             aria-label="twitter"
             className="link link--icon"
             target="_blank"
             rel="noreferrer"
           >
             <TwitterIcon />
-          </a> */}
+          </a>
         </div>
 
         <button

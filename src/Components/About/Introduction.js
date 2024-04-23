@@ -22,7 +22,7 @@ export const Introduction = () => {
             <div className="introduction_datacontainer">
               <h4>
                 Hi Everyone, My name is{" "}
-                <span className="different">Mantu Kumar Yadav </span> and I am from{" "}
+                <span className="different">Munna Kumar Pandit</span> and I am from{" "}
                 <span className="different">
                   {" "}
                   Siwan, Bihar (India)
@@ -30,11 +30,11 @@ export const Introduction = () => {
                 . I have completed my graduation in B.Tech (CSE)
                 from{" "}
                 <span className="different">
-                Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal (MP)
+                IES College of Technology, Bhopal (MP)
                 </span>
-                . Then I joined full stack development course by{" "}
+                {/* . Then I joined full stack development course by{" "}
                 <span className="different">Naresh I Technologies, Hyderabad</span> a military type
-                coding institute.
+                coding institute. */}
               </h4>
               <h4>Soft Skills :</h4>
               <h4 className="different">
