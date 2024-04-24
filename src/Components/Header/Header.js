@@ -16,7 +16,7 @@ export const Header = () => {
             {/* <span>
               <img src={Image} alt="logo" />
             </span> */}
-            Mantu
+            techwithmunna
           </a>
         </h3>
         <Navbar />

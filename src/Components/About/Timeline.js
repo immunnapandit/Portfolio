@@ -32,7 +32,7 @@ export const Timeline = () => {
         </h2>
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
-            date={"Oct 2023 - Present"}
+            date={"Aug 2023 - Feb 2024"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -54,24 +54,23 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Front-End Developer
+              Web Development Bootcamp
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Thinsil Technologies
+              Jspiders
             </h4>
             <p data-aos="fade-right">
-            Collaborated with cross-functional teams to implement user interfaces for web applications.
-            Utilized HTML, CSS, and Bootstrap to create visually appealing and responsive designs.
-            Implemented client-side interactivity using JavaScript and React, enhancing user experience.
-            Assisted in troubleshooting and debugging issues to ensure seamless functionality.
-            Contributed to the optimization of website performance and responsiveness.
+            Completed an intensive training program focused on frontend web development technologies, including HTML, CSS, and
+            JavaScript.Gained hands-on experience with popular frontend frameworks and libraries, such as ReactJs, enhancing
+            proficiency in modern web development.Successfully completed projects demonstrating knowledge of responsive design principles and best practices, showcasing
+            the ability to create visually appealing and functional user interfaces.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"July 2023 - Sept 2023"}
+            date={"Dec 2019 - Jan 2020"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -99,7 +98,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Numetry Technologies, Pune
+              Innovative Business Solutions, Bhopal
             </h4>
             <p data-aos="fade-right">
             Developed a responsive website UI using HTML, CSS, JavaScript, React and Tailwindcss that reduced overall page load speed by 15%.
@@ -220,7 +219,7 @@ export const Timeline = () => {
           </VerticalTimelineElement> */}
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"Jul 2018 - Aug 2022"}
+            date={"Aug 2019 - May 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -248,17 +247,17 @@ export const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal (MP)
+              IES College of Technology, Bhopal (MP)
             </h4>
             <p data-aos="fade-right">
               Studied Computer Science & Engineering which consists of all the
               subjects accross all engineering and cse streams. Passed
-              with 7.78 CGPA
+              with 8.23 CGPA
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"May 2018"}
+            date={"May 2019"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -286,7 +285,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Ram Jaipal College, Saran
+              RNY Inter College, Siwan
             </h4>
             {/* <p data-aos="fade-right">
               Studied 12th Science and Passed with 85.69 Percentage.
