@@ -1,4 +1,6 @@
 import React from "react";
+import mainpage from "../../assets/mainpage.png";
+import foodjunction from "../../assets/foodjunction.png"
 import "./Projects.css";
 import { FaReact, FaHardHat } from "react-icons/fa";
 import {
@@ -30,15 +32,16 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://user-images.githubusercontent.com/91532881/175955112-da88c18c-ac5e-455a-9ac5-047c7db4f894.png"
+                    src={mainpage}
                     alt="Rockstar Games"
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>Nike Clone</h2>
+                <h2>StudyNotion EdTech App</h2>
                 <p>
-                  It's my major project where I've used MERN stack to make the clone of Nike website along with backend integration and payment gateway integration with all the features of an e-commerce website.
+                Contributed to the front-end development of StudyNotion, an interactive learning platform catering to students and
+                instructors.Utilized HTML, CSS, JavaScript, and React.js to create intuitive and engaging user interfaces.
                 {/* <p><span>Tech Stack:</span> React, Redux, Chakra UI, CSS, JavaScript, Rest API</p> */}
                 </p>
                 <div>
@@ -50,7 +53,7 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://nike-clone-blush-seven.vercel.app/"
+                    href="https://studynotion-projects.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -59,7 +62,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/mantukumaryadav/Nike_Clone"
+                    href="https://github.com/immunnapandit/StudyNotion"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -76,26 +79,27 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://i.ibb.co/MPzWN49/weather-app.png"
-                    alt="Sk-Weather-App"
+                    src={foodjunction}
+                    alt="Food Junction App"
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>SK Weather App</h2>
+                <h2>Food Junction App</h2>
                 <p>
-                  Location based weather app. User can also search for their
-                  cities and pickup location from map to see weather data of
-                  respective places.
+                Developed a responsive web application using React.js to display restaurant information.Successfully integrated the Swiggy.com API, a comprehensive source of real-time data on various restaurants. This
+                integration allowed the application to dynamically fetch and display up-to-date information, ensuring a seamless user
+                experience.
                 </p>
                 <div>
+                  <FaReact />
                   <DiCss3 />
                   <SiHtml5 />
                   <IoLogoJavascript />
                 </div>
                 <div>
                   <a
-                    href="https://sk-weather-app.netlify.app/weather-app.html"
+                    href="https://food-junction-app.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -104,7 +108,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Shreyasgkhakal100/Weather-App"
+                    href="https://github.com/immunnapandit/Food_Junction_App"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -116,7 +120,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="projects_container" data-aos="fade-right">
+          {/* <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
@@ -157,8 +161,8 @@ export const Projects = () => {
                 </div>
               </div>
             </div>
-          </div>
-
+          </div> */}
+{/* 
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
@@ -203,8 +207,8 @@ export const Projects = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="projects_container" data-aos="fade-right">
+          </div> */}
+          {/* <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
@@ -250,7 +254,7 @@ export const Projects = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
