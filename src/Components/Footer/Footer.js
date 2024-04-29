@@ -20,4 +20,3 @@ export const Footer = () => {
     </>
   );
 };
-//co mit
