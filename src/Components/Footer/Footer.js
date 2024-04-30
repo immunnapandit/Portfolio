@@ -21,4 +21,4 @@ export const Footer = () => {
   );
 };
 
-//Munna Kumar Pandi
+//Munna Kumar Pandit
